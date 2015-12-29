@@ -1,0 +1,115 @@
+.lang-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 48px;
+  height: 48px;
+  background-size: 48px 48px; }
+
+.ruby-lang {
+  background-image: url(../images/icons/ruby-grey.png); }
+
+.php-lang {
+  background-image: url(../images/icons/php-grey.png); }
+
+.nodejs-lang {
+  background-image: url(../images/icons/nodejs-grey.png); }
+
+.js-lang {
+  background-image: url(../images/icons/js-grey.png); }
+
+.python-lang {
+  background-image: url(../images/icons/python-grey.png); }
+
+.box:hover a.service-logo i.ruby-lang {
+  background-image: url(../images/icons/ruby-white.png); }
+.box:hover a.service-logo i.php-lang {
+  background-image: url(../images/icons/php-white.png); }
+.box:hover a.service-logo i.nodejs-lang {
+  background-image: url(../images/icons/nodejs-white.png); }
+.box:hover a.service-logo i.js-lang {
+  background-image: url(../images/icons/js-white.png); }
+.box:hover a.service-logo i.python-lang {
+  background-image: url(../images/icons/python-white.png); }
+
+#slider .slide-icon {
+  display: block;
+  width: 42px;
+  height: 42px;
+  background-color: #262626;
+  border-radius: 100px;
+  color: #afafaf;
+  font-size: 19px;
+  text-align: center;
+  line-height: 40px; }
+  @media only screen and (max-width: 1024px) {
+    #slider .slide-icon {
+      width: 32px;
+      height: 32px;
+      line-height: 30px;
+      font-size: 15px; } }
+  @media only screen and (max-width: 640px) {
+    #slider .slide-icon {
+      width: 21px;
+      height: 21px;
+      line-height: 21px;
+      font-size: 10px; } }
+  @media only screen and (max-width: 400px) {
+    #slider .slide-icon {
+      width: 10px;
+      height: 10px;
+      line-height: 8px;
+      font-size: 8px; } }
+  #slider .slide-icon i {
+    margin: 0 auto;
+    vertical-align: middle; }
+
+.learn_startup {
+  border: none !important;
+  width: 120px; }
+
+.team_descr {
+  display: inline-block;
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+  max-width: 500px;
+  width: 100%; }
+  .team_descr p {
+    font-size: 1.25em;
+    color: #717171;
+    font-weight: 300;
+    padding: 0 20px 0 0; }
+  @media screen and (max-width: 1170px) {
+    .team_descr {
+      margin: 0 5%; } }
+
+.team_member__wrapper {
+  display: inline-block;
+  max-width: 500px;
+  width: 100%;
+  text-align: center; }
+  .team_member__wrapper img {
+    max-width: 100%; }
+
+.third_slide .stext.h5 {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1%; }
+
+.blurred_bg {
+  background: rgba(255, 255, 255, 0.5);
+  display: block;
+  border-radius: 3px;
+  padding: 0 5px 3px; }
+
+.first_slide .stext.h2 {
+  padding-top: 3px;
+  margin-top: 20px; }
+.first_slide .stext.h3 {
+  padding: 5px 0;
+  min-width: 160px; }
+
+/* --- hidding .tp-fullwidth-forcer that appears below hero section --- */
+.tp-fullwidth-forcer:nth-of-type(2) {
+  display: none; }
+
+/*# sourceMappingURL=home.css.css.map */
